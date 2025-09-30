@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useLanguage } from "@/components/language-provider";
 import { FounderProfile } from "@/components/team/founder-profile";
+import { TeamApproach } from "@/components/team/team-approach";
 import { TechnicalAchievements } from "@/components/team/technical-achievements";
 import { CommunityMetrics } from "@/components/team/community-metrics";
 
@@ -24,14 +25,19 @@ export function TeamSection() {
         </div>
 
         <Tabs defaultValue="founder" className="w-full">
-          <TabsList className="grid w-full grid-cols-3 glass-card animate-fade-in">
+          <TabsList className="grid w-full grid-cols-4 glass-card animate-fade-in">
             <TabsTrigger value="founder">{t("team.founder")}</TabsTrigger>
+            <TabsTrigger value="approach">{t("team.approach")}</TabsTrigger>
             <TabsTrigger value="achievements">{t("team.achievements")}</TabsTrigger>
             <TabsTrigger value="community">{t("team.community")}</TabsTrigger>
           </TabsList>
 
           <TabsContent value="founder" className="mt-8">
             <FounderProfile />
+          </TabsContent>
+
+          <TabsContent value="approach" className="mt-8">
+            <TeamApproach />
           </TabsContent>
 
           <TabsContent value="achievements" className="mt-8">
