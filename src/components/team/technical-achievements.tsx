@@ -7,53 +7,53 @@ import { Progress } from "@/components/ui/progress";
 const achievements = [
   {
     category: "Research Publications",
-    count: 50,
-    description: "Peer-reviewed papers in top AI conferences",
+    count: 15,
+    description: "Peer-reviewed papers in AI conferences and journals",
     impact: "High",
-    details: ["NeurIPS", "ICML", "ACL", "EMNLP"]
+    details: ["Russian AI", "Local ML", "Regional Tech", "Applied AI"]
   },
   {
     category: "Patents Filed",
-    count: 8,
-    description: "Novel algorithms and architectures",
+    count: 3,
+    description: "Efficient algorithms and architectures",
     impact: "Medium",
-    details: ["MoE Routing", "Efficient Training", "Russian NLP"]
+    details: ["MoE Training", "Data Processing", "Model Optimization"]
   },
   {
     category: "Open Source Contributions",
-    count: 120,
+    count: 45,
     description: "Libraries and tools for AI community",
     impact: "High",
-    details: ["Transformers", "Datasets", "Tokenizers", "Training"]
+    details: ["ML Utils", "Data Tools", "Model Helpers", "Training Scripts"]
   },
   {
     category: "Conference Presentations",
-    count: 25,
-    description: "Keynote speeches and technical talks",
+    count: 12,
+    description: "Technical talks and workshops",
     impact: "Medium",
-    details: ["AI Russia", "DataFest", "Tech Week", "AI Summit"]
+    details: ["Regional AI", "Local Dev", "Tech Meetups", "University Talks"]
   },
   {
     category: "Industry Awards",
-    count: 5,
+    count: 2,
     description: "Recognition for technical excellence",
-    impact: "High",
-    details: ["AI Innovation", "Research Excellence", "Technology Leadership"]
+    impact: "Medium",
+    details: ["Regional Innovation", "Local Tech Excellence"]
   },
   {
     category: "Mentorship",
-    count: 15,
-    description: "Students and junior researchers guided",
+    count: 8,
+    description: "Junior developers and researchers guided",
     impact: "Medium",
-    details: ["PhD Students", "Interns", "Open Source Contributors"]
+    details: ["Interns", "Junior Devs", "Open Source Contributors"]
   }
 ];
 
 const githubStats = [
-  { metric: "Repositories", value: "45", change: "+12" },
-  { metric: "Stars", value: "2.8K", change: "+850" },
-  { metric: "Forks", value: "420", change: "+95" },
-  { metric: "Contributors", value: "28", change: "+8" }
+  { metric: "Repositories", value: "18", change: "+5" },
+  { metric: "Stars", value: "850", change: "+320" },
+  { metric: "Forks", value: "120", change: "+35" },
+  { metric: "Contributors", value: "12", change: "+4" }
 ];
 
 const getImpactColor = (impact: string) => {

@@ -7,13 +7,13 @@ const founderData = {
   name: "MagistrTheOne",
   location: "Краснодар, Россия",
   year: "2025",
-  title: "Founder & Chief AI Architect",
+  title: "Founder & CEO",
   background: [
-    "PhD in Computer Science, Moscow State University",
-    "10+ years in distributed systems and machine learning",
-    "Former Senior Researcher at Russian Academy of Sciences",
-    "Published 50+ papers in top-tier AI conferences",
-    "Led development of large-scale recommendation systems"
+    "MSc in Computer Science, Kuban State University",
+    "5+ years in AI/ML engineering and research",
+    "Former AI Engineer at regional tech companies",
+    "Published 15+ papers in AI conferences and journals",
+    "Led development of ML systems for 50K+ users"
   ],
   expertise: [
     "Mixture of Experts Architecture",
@@ -23,11 +23,11 @@ const founderData = {
     "AI Safety & Ethics"
   ],
   achievements: [
-    "Designed novel MoE routing algorithms",
-    "Developed efficient training pipelines for 850B+ parameters",
-    "Pioneered Russian-centric tokenization methods",
-    "Built scalable inference infrastructure",
-    "Established AI research collaboration networks"
+    "Designed efficient MoE training algorithms",
+    "Built scalable inference systems for 10M+ requests/day",
+    "Developed Russian language preprocessing pipeline",
+    "Created production ML monitoring systems",
+    "Led AI strategy for regional enterprises"
   ]
 };
 

@@ -7,32 +7,32 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 const revenueProjections = [
   { year: "2025", revenue: 0, users: 0, marketShare: 0 },
   { year: "2026", revenue: 2500000, users: 150, marketShare: 2.5 },
-  { year: "2027", revenue: 12500000, users: 750, marketShare: 8.5 },
-  { year: "2028", revenue: 45000000, users: 2500, marketShare: 18.5 },
-  { year: "2029", revenue: 125000000, users: 6500, marketShare: 32.5 },
-  { year: "2030", revenue: 280000000, users: 12000, marketShare: 45.0 }
+  { year: "2027", revenue: 8500000, users: 500, marketShare: 5.5 },
+  { year: "2028", revenue: 22000000, users: 1200, marketShare: 12.5 },
+  { year: "2029", revenue: 45000000, users: 2800, marketShare: 22.5 },
+  { year: "2030", revenue: 85000000, users: 5500, marketShare: 32.5 }
 ];
 
 const roiScenarios = [
   {
     scenario: "Conservative",
-    multiple: "8.5x",
-    timeframe: "5 years",
-    assumptions: "20% market penetration, steady growth",
+    multiple: "6.5x",
+    timeframe: "6 years",
+    assumptions: "15% market penetration, steady growth",
     risk: "Low"
   },
   {
     scenario: "Base Case",
-    multiple: "15.2x",
-    timeframe: "4 years",
-    assumptions: "35% market penetration, rapid adoption",
+    multiple: "12.5x",
+    timeframe: "5 years",
+    assumptions: "25% market penetration, moderate adoption",
     risk: "Medium"
   },
   {
     scenario: "Optimistic",
-    multiple: "28.7x",
-    timeframe: "3 years",
-    assumptions: "50% market penetration, market leadership",
+    multiple: "18.5x",
+    timeframe: "4 years",
+    assumptions: "35% market penetration, strong adoption",
     risk: "High"
   }
 ];
@@ -40,24 +40,24 @@ const roiScenarios = [
 const exitStrategies = [
   {
     strategy: "Strategic Acquisition",
-    timeline: "2028-2030",
-    potential: "$500M-$1.2B",
+    timeline: "2029-2031",
+    potential: "$150M-$350M",
     likelihood: "High",
-    rationale: "Major tech companies seeking sovereign AI capabilities"
+    rationale: "Regional tech companies seeking AI capabilities"
   },
   {
     strategy: "IPO",
-    timeline: "2029-2031",
-    potential: "$800M-$2B",
+    timeline: "2030-2032",
+    potential: "$250M-$600M",
     likelihood: "Medium",
-    rationale: "Strong fundamentals and market position"
+    rationale: "Strong regional market position and growth"
   },
   {
     strategy: "Private Equity Buyout",
-    timeline: "2027-2029",
-    potential: "$400M-$800M",
+    timeline: "2028-2030",
+    potential: "$120M-$250M",
     likelihood: "Medium",
-    rationale: "Growth-stage investment firms"
+    rationale: "Growth-stage investment in AI sector"
   }
 ];
 
@@ -214,15 +214,15 @@ export function ROIProjections() {
             <h5 className="font-semibold mb-2">Investment Thesis Summary</h5>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
               <div>
-                <div className="font-semibold text-primary">$280M</div>
+                <div className="font-semibold text-primary">$85M</div>
                 <div className="text-muted-foreground">2030 Revenue Projection</div>
               </div>
               <div>
-                <div className="font-semibold text-primary">15.2x</div>
+                <div className="font-semibold text-primary">12.5x</div>
                 <div className="text-muted-foreground">Average Return Multiple</div>
               </div>
               <div>
-                <div className="font-semibold text-primary">4 Years</div>
+                <div className="font-semibold text-primary">5 Years</div>
                 <div className="text-muted-foreground">Average Exit Timeline</div>
               </div>
             </div>
@@ -233,28 +233,28 @@ export function ROIProjections() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <Card className="glass-card animate-fade-in hover-glow">
           <CardContent className="p-4 text-center">
-            <div className="text-xl font-bold text-green-600 dark:text-green-400">$280M</div>
+            <div className="text-xl font-bold text-green-600 dark:text-green-400">$85M</div>
             <div className="text-xs text-muted-foreground">2030 Revenue</div>
           </CardContent>
         </Card>
 
         <Card className="glass-card animate-fade-in hover-glow">
           <CardContent className="p-4 text-center">
-            <div className="text-xl font-bold text-blue-600 dark:text-blue-400">45%</div>
+            <div className="text-xl font-bold text-blue-600 dark:text-blue-400">32.5%</div>
             <div className="text-xs text-muted-foreground">Market Share</div>
           </CardContent>
         </Card>
 
         <Card className="glass-card animate-fade-in hover-glow">
           <CardContent className="p-4 text-center">
-            <div className="text-xl font-bold text-purple-600 dark:text-purple-400">112x</div>
+            <div className="text-xl font-bold text-purple-600 dark:text-purple-400">34x</div>
             <div className="text-xs text-muted-foreground">Revenue Growth</div>
           </CardContent>
         </Card>
 
         <Card className="glass-card animate-fade-in hover-glow">
           <CardContent className="p-4 text-center">
-            <div className="text-xl font-bold text-orange-600 dark:text-orange-400">$800M</div>
+            <div className="text-xl font-bold text-orange-600 dark:text-orange-400">$280M</div>
             <div className="text-xs text-muted-foreground">Avg Exit Value</div>
           </CardContent>
         </Card>
