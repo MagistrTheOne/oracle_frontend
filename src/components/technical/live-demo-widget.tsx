@@ -9,14 +9,16 @@ import { Progress } from "@/components/ui/progress";
 
 const demoResponses = {
   en: [
-    "Oracle850B-MoE demonstrates advanced reasoning capabilities by analyzing complex queries through its specialized expert networks. The model processes information across multiple domains simultaneously, providing comprehensive and contextually aware responses.",
-    "The Mixture of Experts architecture enables efficient processing by activating only relevant expert networks for each query. This approach achieves 95% computational efficiency while maintaining superior accuracy across diverse tasks.",
-    "Russian language processing is optimized through specialized linguistic experts that understand contextual nuances, cultural references, and domain-specific terminology unique to Russian communication patterns."
+    "Based on Q3 sales analysis: 1) Optimize pricing strategy to restore margins, 2) Implement customer retention programs to reduce acquisition costs, 3) Expand into high-margin product segments. Expected impact: +5% margin recovery within 2 quarters.",
+    "Contract analysis reveals significant liability exposure. The force majeure clause is overly broad and could be interpreted to exclude standard business risks. Recommendation: Narrow definition to acts of God only, add mutual termination clauses, and include specific liability caps.",
+    "Microservices architecture design: 1) API Gateway for authentication and rate limiting, 2) Service mesh for inter-service communication, 3) Distributed tracing for observability, 4) Circuit breakers for resilience. Scale horizontally with Kubernetes, implement zero-trust security model.",
+    "Russian AI market analysis: Strengths - government support, growing talent pool; Weaknesses - regulatory uncertainty, funding gaps; Opportunities - niche applications, local language processing; Threats - international competition, talent drain. Recommendation: Focus on government contracts and regional enterprise solutions."
   ],
   ru: [
-    "Oracle850B-MoE демонстрирует продвинутые способности рассуждения, анализируя сложные запросы через специализированные экспертные сети. Модель обрабатывает информацию одновременно по нескольким областям, предоставляя всесторонние и контекстно-осознанные ответы.",
-    "Архитектура Mixture of Experts обеспечивает эффективную обработку, активируя только релевантные экспертные сети для каждого запроса. Этот подход достигает 95% вычислительной эффективности при сохранении превосходной точности в различных задачах.",
-    "Обработка русского языка оптимизирована через специализированные лингвистические эксперты, которые понимают контекстные нюансы, культурные ссылки и специфичную для русского языка терминологию."
+    "На основе анализа продаж Q3: 1) Оптимизировать ценовую стратегию для восстановления маржи, 2) Внедрить программы удержания клиентов для снижения затрат на привлечение, 3) Расшириться на высокомаржинальные сегменты продуктов. Ожидаемый эффект: восстановление маржи на 5% в течение 2 кварталов.",
+    "Анализ контракта выявляет значительную ответственность. Пункт форс-мажора слишком широк и может исключать стандартные бизнес-риски. Рекомендация: сузить определение только до актов Бога, добавить взаимные условия расторжения и включить конкретные ограничения ответственности.",
+    "Дизайн микросервисной архитектуры: 1) API Gateway для аутентификации и ограничения скорости, 2) Service mesh для межсервисной коммуникации, 3) Распределенная трассировка для наблюдаемости, 4) Circuit breakers для устойчивости. Горизонтальное масштабирование с Kubernetes, модель zero-trust безопасности.",
+    "Анализ рынка ИИ России: Сильные стороны - государственная поддержка, растущий кадровый резерв; Слабости - регуляторная неопределенность, пробелы в финансировании; Возможности - нишевые приложения, обработка локального языка; Угрозы - международная конкуренция, утечка талантов. Рекомендация: фокус на государственных контрактах и региональных корпоративных решениях."
   ]
 };
 

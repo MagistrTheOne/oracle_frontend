@@ -11,46 +11,46 @@ import { useLanguage } from "@/components/language-provider";
 const demoScenarios = {
   en: [
     {
-      title: "Mathematical Reasoning",
-      query: "A train travels at 80 km/h for 2 hours, then slows to 60 km/h for 1.5 hours. What is the average speed?",
-      category: "Math"
+      title: "Business Intelligence",
+      query: "Analyze Q3 sales data: revenue up 15% but profit margin down 3%. Customer acquisition cost increased 20%. Recommend 3 strategic actions.",
+      category: "Business"
     },
     {
-      title: "Code Analysis",
-      query: "Explain this Python function and suggest optimizations: def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
-      category: "Programming"
+      title: "Legal Document Analysis",
+      query: "Review this contract clause: 'Force majeure events include but are not limited to acts of God, war, terrorism, and pandemics.' Assess liability risks.",
+      category: "Legal"
     },
     {
-      title: "Russian Literature Analysis",
-      query: "Analyze the character development of Raskolnikov in Crime and Punishment, focusing on his moral transformation.",
-      category: "Literature"
+      title: "Technical Architecture",
+      query: "Design a microservices architecture for a fintech app handling 10K transactions/sec. Include security, scalability, and monitoring considerations.",
+      category: "Engineering"
     },
     {
-      title: "Scientific Reasoning",
-      query: "Explain quantum entanglement and its implications for modern computing using simple analogies.",
-      category: "Science"
+      title: "Market Research",
+      query: "Compare Russian AI market vs US market: growth rates, key players, regulatory environment, investment trends. Provide SWOT analysis.",
+      category: "Market"
     }
   ],
   ru: [
     {
-      title: "Математическое рассуждение",
-      query: "Поезд едет со скоростью 80 км/ч в течение 2 часов, затем замедляется до 60 км/ч на 1.5 часа. Какова средняя скорость?",
-      category: "Математика"
+      title: "Бизнес-аналитика",
+      query: "Проанализируйте данные продаж Q3: выручка выросла на 15%, но маржа прибыли снизилась на 3%. Стоимость привлечения клиентов выросла на 20%. Рекомендуйте 3 стратегических действия.",
+      category: "Бизнес"
     },
     {
-      title: "Анализ кода",
-      query: "Объясните эту функцию Python и предложите оптимизации: def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
-      category: "Программирование"
+      title: "Анализ юридических документов",
+      query: "Проанализируйте этот пункт контракта: 'Форс-мажорные обстоятельства включают, но не ограничиваются актами Бога, войной, терроризмом и пандемиями.' Оцените риски ответственности.",
+      category: "Юридический"
     },
     {
-      title: "Анализ русской литературы",
-      query: "Проанализируйте развитие персонажа Раскольникова в 'Преступлении и наказании', сосредоточившись на его моральном преобразовании.",
-      category: "Литература"
+      title: "Техническая архитектура",
+      query: "Спроектируйте микросервисную архитектуру для fintech приложения, обрабатывающего 10K транзакций/сек. Включите соображения безопасности, масштабируемости и мониторинга.",
+      category: "Инжиниринг"
     },
     {
-      title: "Научное рассуждение",
-      query: "Объясните квантовую запутанность и её последствия для современных вычислений, используя простые аналогии.",
-      category: "Наука"
+      title: "Исследование рынка",
+      query: "Сравните российский рынок ИИ с американским: темпы роста, ключевые игроки, регуляторная среда, инвестиционные тенденции. Предоставьте SWOT анализ.",
+      category: "Рынок"
     }
   ]
 };

@@ -7,7 +7,7 @@ const timelineData = [
   {
     phase: "Phase 1: Foundation",
     status: "completed",
-    date: "Q1 2024",
+    date: "Q1-Q2 2025",
     milestones: [
       "Architecture design completion",
       "Core MoE framework implementation",
@@ -18,9 +18,9 @@ const timelineData = [
   {
     phase: "Phase 2: Core Development",
     status: "completed",
-    date: "Q2-Q3 2024",
+    date: "Q3 2025",
     milestones: [
-      "Expert network scaling to 2,816 experts",
+      "Expert network scaling to 16 networks",
       "Russian language tokenization optimization",
       "Basic reasoning capabilities implementation",
       "Initial performance benchmarking"
@@ -128,9 +128,9 @@ export function RoadmapTimeline() {
         </div>
 
         <div className="mt-8 p-4 bg-muted/20 rounded-lg">
-          <h5 className="font-semibold mb-2">Current Status: Q4 2025 - Advanced Features Implementation</h5>
+          <h5 className="font-semibold mb-2">Current Status: October 2025 - Advanced Features Implementation</h5>
           <p className="text-sm text-muted-foreground">
-            Oracle850B-MoE is in Q4 2025 with advanced features implementation in progress.
+            Oracle5TB-MoE is in October 2025 with advanced features implementation in progress.
             Focus on real-time inference optimization, multi-domain expert specialization, and comprehensive testing suite development.
           </p>
         </div>
